@@ -1,13 +1,13 @@
 # 🌐 Cisco Packet Tracer – Practical 01
 
 <p align="center">
-  <img src="topology.png" alt="Network Topology" width="750">
+  <img src="topology.png" alt="Cisco Packet Tracer Practical 01 Topology" width="800">
 </p>
 
 ## 📌 Practical Overview
 
 This is my **1st Cisco Packet Tracer practical**.  
-The practical demonstrates a basic network topology using **two PCs and two Cisco 2960-24TT switches**.
+This practical demonstrates a basic network topology using **two PCs and two Cisco 2960-24TT switches**.
 
 ## 🎯 Objectives
 
@@ -26,21 +26,17 @@ The practical demonstrates a basic network topology using **two PCs and two Cisc
 
 ## 🔗 Network Topology
 
-```text
-PC0
- │
- │
-Switch0 ───────── Switch1
-                         │
-                         │
-                        PC1
-```
+The network consists of:
 
-The topology contains:
+- **PC0 → Switch0**
+- **Switch0 → Switch1**
+- **Switch1 → PC1**
 
-- **PC0** connected to **Switch0**
-- **Switch0** connected to **Switch1**
-- **Switch1** connected to **PC1**
+### Topology Screenshot
+
+<p align="center">
+  <img src="topology.png" alt="Network Topology" width="800">
+</p>
 
 ## 🧩 Technologies / Concepts
 
@@ -58,20 +54,18 @@ The topology contains:
 ## 📁 Files
 
 - `Practical-01.pkt` – Cisco Packet Tracer practical file
-- `topology.png` – Network topology screenshot
+- `topology.png` – Practical topology screenshot
 - `README.md` – Practical documentation
 
 ## 🧪 Testing
 
-After configuring the devices, connectivity can be tested using the **Ping** command from one PC to the other.
-
-Example:
+Connectivity can be tested using the **Ping** command from one PC to the other.
 
 ```bash
 ping <PC1-IP-address>
 ```
 
-A successful ping indicates that the devices are able to communicate through the switches.
+A successful ping indicates that the devices can communicate through the switches.
 
 ## 📚 Learning Outcome
 
@@ -94,4 +88,3 @@ The Open University of Sri Lanka
 ---
 
 ⭐ **Cisco Packet Tracer Practical 01**
-
