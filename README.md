@@ -1,27 +1,97 @@
-# Practical 01 - VLAN Configuration
+# 🌐 Cisco Packet Tracer – Practical 01
 
-## Objective
+<p align="center">
+  <img src="topology.png" alt="Network Topology" width="750">
+</p>
 
-Configure VLANs using Cisco Packet Tracer.
+## 📌 Practical Overview
 
-## Software
+This is my **1st Cisco Packet Tracer practical**.  
+The practical demonstrates a basic network topology using **two PCs and two Cisco 2960-24TT switches**.
 
-- Cisco Packet Tracer
+## 🎯 Objectives
 
-## Concepts
+- Create a basic LAN topology using Cisco Packet Tracer.
+- Connect PCs to switches.
+- Connect two switches together.
+- Understand basic Ethernet connectivity.
+- Test communication between network devices.
 
-- VLAN
-- Access Ports
-- Trunk Ports
-- Switch Configuration
+## 🖥️ Network Devices
 
-## Packet Tracer File
+| Device | Quantity |
+|---|---:|
+| PC-PT | 2 |
+| Cisco 2960-24TT Switch | 2 |
 
-[VLAN-Practical-01.pkt](VLAN-Practical-01.pkt)
+## 🔗 Network Topology
 
-## Commands Used
+```text
+PC0
+ │
+ │
+Switch0 ───────── Switch1
+                         │
+                         │
+                        PC1
+```
+
+The topology contains:
+
+- **PC0** connected to **Switch0**
+- **Switch0** connected to **Switch1**
+- **Switch1** connected to **PC1**
+
+## 🧩 Technologies / Concepts
+
+- Ethernet Networking
+- LAN (Local Area Network)
+- Cisco Switches
+- PC-to-Switch Connectivity
+- Switch-to-Switch Connectivity
+- Basic Network Topology
+
+## 🛠️ Software Used
+
+- **Cisco Packet Tracer**
+
+## 📁 Files
+
+- `Practical-01.pkt` – Cisco Packet Tracer practical file
+- `topology.png` – Network topology screenshot
+- `README.md` – Practical documentation
+
+## 🧪 Testing
+
+After configuring the devices, connectivity can be tested using the **Ping** command from one PC to the other.
+
+Example:
 
 ```bash
-show vlan brief
-show interfaces trunk
-show running-config
+ping <PC1-IP-address>
+```
+
+A successful ping indicates that the devices are able to communicate through the switches.
+
+## 📚 Learning Outcome
+
+Through this practical, I learned how to:
+
+- Build a simple network topology in Cisco Packet Tracer.
+- Connect end devices to network switches.
+- Connect multiple switches.
+- Understand the basic structure of a small LAN.
+- Verify network connectivity.
+
+---
+
+### 👨‍💻 Student
+
+**Ayesh Kuruppu**  
+B.Sc. (Hons) in Information Technology  
+The Open University of Sri Lanka
+
+---
+
+⭐ **Cisco Packet Tracer Practical 01**
+
