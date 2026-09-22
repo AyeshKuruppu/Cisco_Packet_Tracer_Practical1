@@ -1,8 +1,5 @@
 # 🌐 Cisco Packet Tracer – Practical 01
 
-<p align="center">
-  ![Network Topology](./topology.png)
-</p>
 
 ## 📌 Practical Overview
 
@@ -32,11 +29,6 @@ The network consists of:
 - **Switch0 → Switch1**
 - **Switch1 → PC1**
 
-### Topology Screenshot
-
-<p align="center">
-  <img src="topology.png" alt="Network Topology" width="800">
-</p>
 
 ## 🧩 Technologies / Concepts
 
