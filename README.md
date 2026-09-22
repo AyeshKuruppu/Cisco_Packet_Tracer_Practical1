@@ -1,7 +1,7 @@
 # 🌐 Cisco Packet Tracer – Practical 01
 
 <p align="center">
-  <img src="topology.png" alt="Cisco Packet Tracer Practical 01 Topology" width="800">
+  ![Network Topology](./topology.png)
 </p>
 
 ## 📌 Practical Overview
